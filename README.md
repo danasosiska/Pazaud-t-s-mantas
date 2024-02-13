@@ -1,1 +1,0 @@
-# Pazaud-t-s-mantas
