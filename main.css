@@ -1,59 +1,222 @@
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+/* Reset some default browser styles */
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: #c92020;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+/* Rectangle 1 */
+.rectangle-1 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 56px;
+    top: 53px;
+    background: linear-gradient(270deg, #DACC3E 0%, #7D1538 100%);
 }
 
-header h1 {
-    margin-bottom: 10px;
+/* Rectangle 2 */
+.rectangle-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 217px;
+    top: 127px;
+    background: url('image.jpg'); /* Replace 'image.jpg' with your image file */
+    border-radius: 50%;
 }
 
-nav ul {
-    list-style: none;
+/* Frame 1 */
+.frame-1 {
+    position: absolute;
+    width: 312px;
+    height: 55px;
+    left: 1513px;
+    top: 127px;
+    background: #7D1538;
+    border-radius: 73px;
+    color: #DACC3E;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center; /* Add text alignment */
+}
+/* Repeat the above pattern for other elements in your design */
+.frame-1 {
+    position: absolute;
+    width: 242px;
+    height: 73px;
+    left: 52px;
+    top: 7px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #DACC3E;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.kontakti {
+    position: absolute;
+    width: 184px;
+    height: 48px;
+    left: 1312px;
+    top: 161px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #7D1538;
+    font-variation-settings: 'slnt' 0;
 }
 
-nav a {
-    text-decoration: none;
-    color: rgb(0, 0, 255);
+.frame-2 {
+    position: absolute;
+    width: 242px;
+    height: 94px;
+    left: 45px;
+    top: 8px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #DACC3E;
 }
 
-main {
-    padding: 20px;
+.lost-items {
+    position: absolute;
+    width: 865px;
+    height: 331px;
+    left: 217px;
+    top: 473px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 152px;
+
+    color: #DACC3E;
 }
 
-section {
-    margin-bottom: 30px;
+.frame-3 {
+    position: absolute;
+    width: 404px;
+    height: 118px;
+    left: 49px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 63px;
+
+    color: #7D1538;
+    font-variation-settings: 'slnt' 0;
 }
 
-h2 {
-    color: #333;
+.frame-4 {
+    position: absolute;
+    width: 746px;
+    height: 704px;
+    left: 1067px;
+    top: 350px;
+
+    background: url(image.png);
+    background-blend-mode: multiply;
+    border-radius: 91px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+.frame-5 {
+    position: absolute;
+    width: 220px;
+    height: 68px;
+    left: 1283px;
+    top: 159px;
+
 }
 
-@media only screen and (max-width: 600px) {
-    nav ul {
-        text-align: center;
-    }
+.frame-6 {
+    position: absolute;
+    width: 220px;
+    height: 69px;
+    left: 1053px;
+    top: 137px;
+}
 
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+.frame-7 {
+    position: absolute;
+    width: 382px;
+    height: 72px;
+    left: 649px;
+    top: 137px;
+}
+
+.lost-properties {
+    position: absolute;
+    width: 382px;
+    height: 67px;
+    left: 658px;
+    top: 154px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #DACC3E;
+    font-variation-settings: 'slnt' 0;
+}
+
+.about-us {
+    position: absolute;
+    width: 215px;
+    height: 53px;
+    left: 1067px;
+    top: 156px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #7D1538;
+    font-variation-settings: 'slnt' 0;
+}
+
+.frame-8 {
+    position: absolute;
+    width: 275px;
+    height: 72px;
+    left: 345px;
+    top: 137px;
+}
+
+.main-page {
+    position: absolute;
+    width: 564px;
+    height: 75px;
+    left: 389px;
+    top: 154px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #DACC3E;
+    font-variation-settings: 'slnt' 0;
 }
