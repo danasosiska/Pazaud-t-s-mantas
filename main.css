@@ -1,31 +1,29 @@
-/* Reset some default browser styles */
+
 body, h1, h2, h3, p, div {
     margin: 0;
     padding: 0;
 }
 
-/* Rectangle 1 */
+
 .rectangle-1 {
     position: absolute;
     width: 1920px;
     height: 1080px;
-    left: 56px;
-    top: 53px;
     background: linear-gradient(270deg, #DACC3E 0%, #7D1538 100%);
 }
 
-/* Rectangle 2 */
+
 .rectangle-2 {
     position: absolute;
     width: 100px;
     height: 100px;
     left: 217px;
     top: 127px;
-    background: url('image.jpg'); /* Replace 'image.jpg' with your image file */
+    background: url('image.jpg'); 
     border-radius: 50%;
 }
 
-/* Frame 1 */
+
 .frame-1 {
     position: absolute;
     width: 312px;
@@ -40,9 +38,9 @@ body, h1, h2, h3, p, div {
     font-weight: 800;
     font-size: 20px;
     line-height: 55px;
-    text-align: center; /* Add text alignment */
+    text-align: center; 
 }
-/* Repeat the above pattern for other elements in your design */
+
 .frame-1 {
     position: absolute;
     width: 242px;
