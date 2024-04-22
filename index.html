@@ -3,55 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Your Website Title</title>
+    <title>Pazaudētās mantas</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="frame-10">
-        <!-- Rectangle 1 -->
-        <div class="rectangle-1"></div>
-        
-        <!-- Rectangle 2 -->
-        <div class="rectangle-2"></div>
-        
-        <!-- Frame 1 -->
-        <div class="frame-1">Reģistrējies</div>
-        
-        <!-- Kontakti -->
-        <div class="kontakti">Kontakti</div>
-        
-        <!-- Frame 2 -->
-        <div class="frame-2">Pieslēdzies</div>
-        
-        <!-- Vai esi ko pazaudējis? -->
-        <div class="lost-items">Vai esi ko pazaudējis?</div>
-        
-        <!-- Frame 3 -->
-        <div class="frame-3">Meklē šeit</div>
-        
-        <!-- Frame 4 -->
-        <div class="frame-4"></div>
-        
-        <!-- Frame 5 -->
-        <div class="frame-5"></div>
-        
-        <!-- Frame 6 -->
-        <div class="frame-6"></div>
-        
-        <!-- Frame 7 -->
-        <div class="frame-7"></div>
-        
-        <!-- Pazaudētās mantas -->
-        <div class="lost-properties">Pazaudētās mantas</div>
-        
-        <!-- Par mums -->
-        <div class="about-us">Par mums</div>
-        
-        <!-- Frame 8 -->
-        <div class="frame-8"></div>
-        
-        <!-- Galvenā lapa -->
-        <div class="main-page">Galvenā lapa</div>
+    <div class="container">
+        <header>
+            <h1>Pazaudētās mantas</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><button onclick="showHomePage()">Galvenā lapa</button></li>
+                <li><button onclick="showLostItems()">Pazaudētās mantas</button></li>
+                <li><button onclick="showAboutUs()">Par mums</button></li>
+                <li><button onclick="showContacts()">Kontakti</button></li>
+            </ul>
+        </nav>
+        <main id="main-content">
+            <h2>Welcome!</h2>
+            <p>Content for the selected page will appear here.</p>
+        </main>
+        <form id="login-form">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="submit">Log in</button>
+            <button type="button">Sign up</button>
+        </form>
+        <footer>
+            <p>&copy; 2024 Pazaudētās mantas</p>
+        </footer>
     </div>
+    <script src="kautkas.js"></script> <!-- Include JavaScript file -->
 </body>
 </html>
